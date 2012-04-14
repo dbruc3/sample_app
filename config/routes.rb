@@ -1,5 +1,5 @@
 SampleApp::Application.routes.draw do
-  get "pages/home"
+  match 'pages/home' => 'pages#home'
 
   get "pages/contact"
   
